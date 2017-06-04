@@ -30,4 +30,4 @@ public native String  avcodecConfiguration();
 
 # 四.效果  
 截图展示了Jni调用const char *avcodec_license(void)和const char *avcodec_configuration(void)的输出：  
-！[输出](https://github.com/SDonGit/JniPractice/blob/master/ScreenShot.png)
+![输出](https://github.com/SDonGit/JniPractice/blob/master/ScreenShot.png)
