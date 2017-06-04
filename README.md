@@ -9,7 +9,7 @@ NDK使用场景：
 FFmpeg: A complete, cross-platform solution to record, convert and stream audio and video.
 
 # 二.场景  
-假设我们要开发一个基于FFmpeg的视频播放库SDK,简单起见，本Demo只是简单的调用FFmpeg库中的const char *avcodec_license(void)  
+假设我们要开发一个基于FFmpeg的视频播放库SDK,简单起见，本Demo只是简单的调用FFmpeg库中的const char *avcodec_license(void)
 和const char *avcodec_configuration(void)方法，所以该"SDK"不包含.jar文件，只需生成.so文件。  
 
 # 三.实现
