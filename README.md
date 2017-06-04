@@ -26,7 +26,7 @@ public native String  avcodecConfiguration();
 4.编写Android.mk文件  
 [Android.mk](https://github.com/SDonGit/JniPractice/blob/master/jni/Android.mk)  
 5.ndk-build生成libhello-jni.so  
-将生成的FFmpeg库和头文件、hello-jni.c、Android.mk放到一个文件夹内，利用ndk-build命令生成libjni-lib.so 
+将生成的FFmpeg库和头文件、hello-jni.c、Android.mk放到一个文件夹内，利用ndk-build命令生成libhello-jni.so 
 ![ndk-build](https://github.com/SDonGit/JniPractice/blob/master/ndk-build.png)  
 
 # 四.效果  
