@@ -2,8 +2,8 @@
 JNI: Java Native Interface，是Java和Native代码互通的接口  
 NDK: Native Develop Kit，是一组允许你将C或C++(原生代码)嵌入到Android应用中的工具  
 NDK使用场景：  
-1.平台之间移植应用
-2.重用现有库
+1.平台之间移植应用  
+2.重用现有库  
 3.在某些情况下提高性能，特别是计算密集型应用  
 联想：在使用高德SDK时发现，高德SDK包含一些.jar文件和一些.so文件，所以在进行NDK相关开发时，最终目的是生成.so文件并打包进apk  
 FFmpeg: A complete, cross-platform solution to record, convert and stream audio and video.
